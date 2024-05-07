@@ -71,7 +71,7 @@ void draw() {
 }
 
 int tempoExibicaoMensagem = 0;
-final int DURACAO_EXIBICAO_MENSAGEM = 150;
+final int DURACAO_DA_MENSAGEM = 150;
 
 void jogo() {
   botoes();
@@ -79,8 +79,8 @@ void jogo() {
   fill(0);
   textSize(30);
   textAlign(CENTER, CENTER);
-  text(mensagemInicial, width / 2, 50);
-  text(perguntasPQs[perguntaAtual], width / 2, 100);
+  text(mensagemInicial, width /2, 50);
+  text(perguntasPQs[perguntaAtual], width /2, 100);
 
   textSize(30);
   textAlign(CENTER, CENTER);
@@ -95,7 +95,7 @@ void jogo() {
       somErro.play();
     }
     respostaUsuario = 0;
-    tempoExibicaoMensagem = DURACAO_EXIBICAO_MENSAGEM;
+    tempoExibicaoMensagem = DURACAO_DA_MENSAGEM;
   }
 
   if (mensagemBotao != "") {
