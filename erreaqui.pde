@@ -30,7 +30,7 @@ String[][] opcoesPQs = {
   {"Mim", "Eu"},
   {"Mim", "Eu"}
 };
-int[] respostasPQs = {0, 3, 0, 1, 0, 1, 0, 1};
+int[] respostasPQs = {0, 3, 2, 1, 0, 1, 0, 1};
 
 String mensagemBotao = "";
 boolean iniciarJogo = false;
